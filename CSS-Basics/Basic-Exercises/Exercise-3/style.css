@@ -1,0 +1,13 @@
+.butone, .buttwo{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.butone{
+    background-color: black;
+    color: white;
+}
+
+.buttwo{
+    background-color: yellow;
+}
