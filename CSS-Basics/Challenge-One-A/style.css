@@ -1,0 +1,42 @@
+body{
+    background-color: darksalmon;
+}
+#wrap{
+    background-color: beige;
+    border: 5px black dotted;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    border-bottom: 5px black dotted;
+    margin: 0px;
+    padding: 0px;
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p{
+    margin: 15px;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+li::first-letter{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+li{
+    display: block;
+    font-style: italic;
+}
+
+.copyright{
+    text-align: center;
+}
