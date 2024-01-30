@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(85,205,255);
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+li{
+   
+    display: block;
+}
+li::first-letter{
+    font-size: 1.5em;
+}
