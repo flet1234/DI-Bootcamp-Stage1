@@ -1,0 +1,31 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+
+}
+
+.pic{
+    background-color: pink;
+    width: 30%;
+    border: solid 3px black;
+    
+}
+.text{
+    background-color: blue;
+    width: 60%;
+    border: solid 3px black;
+}
+footer{
+    background-color: yellow;
+    width: 93%;
+    margin-left:auto;
+    margin-right: auto;
+    height: 150px; 
+    border: solid 3px black; 
+}
