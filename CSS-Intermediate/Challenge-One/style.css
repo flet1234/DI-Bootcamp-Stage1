@@ -1,0 +1,33 @@
+body{
+    background-color: #364371;
+    margin-top: 0;
+}
+#wrap{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+#nav{
+    background-color: #b0cfff;
+    float: left;
+    width: 20%;
+    padding-bottom: 1000px;
+    margin-bottom: -1000px;  
+}
+#content{
+    background-color: #5b7fbd;
+    width: 80%;
+    float: right;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#content ul{
+    list-style-type: none;
+}
+footer{
+    clear: both;
+    text-align: center;
+}
