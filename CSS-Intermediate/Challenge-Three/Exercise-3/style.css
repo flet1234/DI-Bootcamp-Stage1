@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: green;
+    border: 3px black solid;
+    width: 90%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+img{
+    width: 30%;
+}
+.left, .right, .middle{
+    width: 30%;
+    height: 300px;
+    border: 3px black solid;
+}
+.left{
+    background-color: yellow;
+}
+.middle{
+    background-color: red;
+}
+.right{
+    background-color: blue;
+}
