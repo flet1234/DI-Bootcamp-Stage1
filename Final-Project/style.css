@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    width: calc(100vw - 120px);
+    height: 100px;
+    background-color: black;
+    margin-left: 100px;
+    color: white;
+    justify-content: center;
+}
+.logo{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Passion One', sans-serif;
+    font-size: 48px;
+    text-shadow: -1.5px -1.5px white;
+
+}
+.container{
+    display: flex;
+}
+nav{
+    background-color: black;
+    width: 100px;
+    margin-top: -100px;
+    height: 100vh;
+    position: fixed;
+    
+    
+   
+
+
+}
+.navlist{
+    margin-left: 10px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 200px);
+}
+.link{
+    color: red;
+    text-decoration:none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Passion One', sans-serif;
+    text-shadow: -0.5px -0.5px white;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    width: calc(100vw - 110px);
+    height: auto;
+}
+
+article{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.artim{
+    width: 25%;
+    border: red 3px solid;
+    border-radius: 30%;
+    margin-left: 2%;
+    margin-right: 3%;
+}    
+h2{
+    color: red;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Passion One', sans-serif;
+    text-shadow: -1px -1px white;
+    border-top: red solid 5px;
+    
+}
+h3{
+    color: red;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Passion One', sans-serif;
+    text-shadow: -1px -1px white;
+}
+.main-text{
+    margin-top: 10px;
+    color: white;
+    width: 70%;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.text{
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+audio{
+    
+}
+footer{
+    width: calc(100vw - 120px);
+    background-color: black;
+    height: 100px;
+    color: red;
+    margin-left: 100px;
+}
