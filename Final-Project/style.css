@@ -8,7 +8,7 @@ body{
 }
 header{
     display: flex;
-    width: calc(100vw - 120px);
+    width: calc(100vw - 100px);
     height: 100px;
     background-color: black;
     margin-left: 100px;
@@ -59,7 +59,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     margin-left: 100px;
-    width: calc(100vw - 110px);
+    width: calc(100vw - 100px);
     height: auto;
 }
 
@@ -68,15 +68,31 @@ article{
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    margin-left: 10px;
 }
 .artim{
-    width: 25%;
-    border: red 3px solid;
-    border-radius: 30%;
-    margin-left: 2%;
-    margin-right: 3%;
-}    
+    width: 24%;
+    border: black 3px solid;
+    border-radius: 10%;
+    margin: 10px 3%;  
+     
+}
+ 
+.artim:hover{
+    transform: scale(1.4,1.4);
+    transition-duration: 30s;
+}
+
+.award{
+    width: 30%;
+    padding-left: -100px;
+    padding-right: -100px;
+}
+
+.award:hover{
+    transform: scale(1.4,1.4);
+    transition-duration: 30s;
+}
+
 h2{
     color: red;
     width: 100%;
@@ -86,6 +102,7 @@ h2{
     text-shadow: -1px -1px white;
     border-top: red solid 5px;
     
+    
 }
 h3{
     color: red;
@@ -94,27 +111,138 @@ h3{
     margin-top: 10px;
     font-family: 'Passion One', sans-serif;
     text-shadow: -1px -1px white;
+    text-decoration: underline red;
 }
 .main-text{
     margin-top: 10px;
     color: white;
     width: 70%;
     font-size: 16px;
-    padding-bottom: 10px;
+    padding: 0px 10px 10px 10px;
 }
 .text{
     margin-top: 10px;
     color: white;
     font-size: 16px;
-    padding-bottom: 10px;
+    padding: 0px 10px 10px 10px;
+
 }
 audio{
-    
+    width: 150px;
+    margin: 5px auto;
+}
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-timeline-container,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-volume-slider-container,
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-seek-back-button,
+audio::-webkit-media-controls-seek-forward-button,
+audio::-webkit-media-controls-fullscreen-button,
+audio::-webkit-media-controls-rewind-button,
+audio::-webkit-media-controls-return-to-realtime-button,
+audio::-webkit-media-controls-toggle-closed-captions-button{
+    visibility: collapse;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: red;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color:red;
+    font-size: 16px;
+    width: 90%;
+}
+.submitbutton{
+    cursor: pointer;
+    width: 80px;
+    margin: 5px auto;
+    background-color: red;
+    color: white;
+    border: solid 1px white;
+    font-size: 16px;
 }
 footer{
-    width: calc(100vw - 120px);
+    width: calc(100vw - 100px);
     background-color: black;
     height: 100px;
-    color: red;
+    color: white;
     margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-top: red solid 5px;
+
+}
+footer p{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left:5%;
+    width: 25%;
+
+}
+footer ul{
+    margin-top: 25px;
+   display: flex;
+   width: 60%;
+}
+footer ul li{
+    width: 33%;
+    list-style-type: none;
+}
+.insta-icon {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 20%;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
+  }
+  .insta-icon:after,
+  .insta-icon:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #fff;
+    transform: translate(-50%, -50%);
+    content: ''
+  }
+  .insta-icon:before {
+    border-radius: 20%
+  }
+  .insta-icon:after {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%
+  }
+
+.wikiicon{
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 20%;
+}
+.imdbicon{
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 20%; 
+}
+.red-button{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 20%; 
+}
+.footerjohn{
+    position: relative;
+    width: 15%; 
 }
