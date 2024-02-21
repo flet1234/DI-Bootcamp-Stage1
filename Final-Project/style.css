@@ -9,7 +9,7 @@ body{
 }
 header{
     display: flex;
-    width: calc(100vw - 100px);
+    width: calc(100% - 100px);
     height: 100px;
     background-color: black;
     margin-left: 100px;
@@ -112,6 +112,11 @@ h3{
     font-size: 16px;
     padding: 0px 10px 10px 10px;
 }
+.main-text::first-letter, .text::first-letter{
+    color:  #dd0f00;
+    text-shadow: -1px -1px white;
+    font-size: 1.5em;
+}
 .text{
     margin-top: 10px;
     color: white;
@@ -163,7 +168,7 @@ input{
     font-size: 16px;
 }
 footer{
-    width: calc(100vw - 100px);
+    width: calc(100% - 100px);
     background-color: black;
     height: 100px;
     color: white;
